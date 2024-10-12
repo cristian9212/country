@@ -52,12 +52,12 @@ public class CountriesService {
         return  paises.stream().filter(country -> country.getId().equals( id)).findFirst();
     }
     public  List<CountriesEntity> createCountry(){
-
+        return paises;
     }
     public  List<CountriesEntity> updateCountry(){
-
+        return paises;
     }
-    public  List<> deleteCountry(){
-
+    public  List<CountriesEntity deleteCountry(){
+        return  paises;
     }
 }
