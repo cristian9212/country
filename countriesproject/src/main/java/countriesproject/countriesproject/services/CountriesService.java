@@ -57,7 +57,7 @@ public class CountriesService {
     public  List<CountriesEntity> updateCountry(){
         return paises;
     }
-    public  List<CountriesEntity deleteCountry(){
+    public  List<CountriesEntity>deleteCountry(){
         return  paises;
     }
 }
